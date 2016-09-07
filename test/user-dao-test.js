@@ -1,5 +1,5 @@
-var assert = require('assert');
-var UserDAO = require('./user-dao-mock.js').UserDAO;
+var assert = require("assert");
+var UserDAO = require("./user-dao-mock.js").UserDAO;
 
 it("should return some users", function () {
 

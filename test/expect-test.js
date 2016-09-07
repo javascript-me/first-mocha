@@ -1,9 +1,9 @@
-var expect = require('expect.js');
+var expect = require("expect.js");
 
-it('test some expect cases', function () {
-    expect({ a: 'b' }).to.eql({ a: 'b' });
+it("test some expect cases", function () {
+    expect({ a: "b" }).to.eql({ a: "b" });
     expect(1).to.be(1);
     expect(NaN).not.to.equal(NaN);
     expect(1).not.to.be(true);
-    expect('1').to.not.be(1);
+    expect("1").to.not.be(1);
 });
