@@ -1,4 +1,4 @@
-var assert = require('assert');
+var assert = require("assert");
 var Hello = require('./../src/hello.js').Hello;
 
 describe('Array', function() {
