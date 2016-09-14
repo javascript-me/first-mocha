@@ -1,6 +1,10 @@
 first-mocha
 ===========
 
+### Run all tests
+
+mocha test/*-test.js
+
 ### How to check style?
 
 jscheckstyle src/hello.js

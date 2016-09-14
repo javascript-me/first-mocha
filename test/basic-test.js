@@ -23,3 +23,13 @@ describe("Usage of bind()", function () {
 it("should bind the host and the method signature parameter", function () {
     assert.equal(1, 1);
 });
+
+it("Math.ramdon()", function () {
+    assert.ok(0 <= Math.random() && Math.random() <= 1);
+});
+
+it("Should do escape", function () {
+    var input = "<div></div>";
+    assert.equal(escape(input), "%3Cdiv%3E%3C/div%3E");
+    assert.equal(unescape(escape(input)), input);
+});
