@@ -8,6 +8,7 @@ mocha test/*-test.js
 ### How to check style?
 
 jscheckstyle src/hello.js
+jscheckstyle node_modules/expect.js/index.js
 
 ### Asynchronous Test
 
